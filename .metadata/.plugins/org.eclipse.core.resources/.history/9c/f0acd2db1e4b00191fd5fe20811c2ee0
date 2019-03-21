@@ -1,0 +1,20 @@
+package com.ego.manager.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.ego.pojo.TbBrand;
+import com.ego.sellergoods.service.BrandService;
+
+@RestController
+@RequestMapping("/brand")
+public class BrandController {
+	@Reference
+	private BrandService brandService;
+public List<TbBrand> findAll(){
+	return 
+}
+}

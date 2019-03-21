@@ -1,0 +1,16 @@
+package com.ego.sellergoods.service.impl;
+
+import java.util.List;
+
+import com.ego.pojo.TbBrand;
+import com.ego.sellergoods.series.BrandService;
+
+public class BrandServiceImpl implements BrandService {
+
+	@Override
+	public List<TbBrand> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
